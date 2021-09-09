@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "outFile": "build/fraugster.raw.js"
+  },
+  "include": ["src/**/*"]
+}

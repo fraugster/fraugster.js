@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browser Info</title>
+    <script src="../build/fraugster.js"></script>
+  </head>
+
+  <body>
+    <h1>Browser Info</h1>
+    <table>
+      <thead>
+        <th>Attribute</th>
+        <th>Value</th>
+      </thead>
+      <tbody id="attributes"></tbody>
+    </table>
+
+    <script>
+      let attributes = document.getElementById('attributes');
+      for (let [key, value] of Object.entries(Fraugster.browserInfo())) {
+        let row = attributes.insertRow();
+        row.insertCell().textContent = key;
+        row.insertCell().textContent = JSON.stringify(value);
+      }
+    </script>
+  </body>
+</html>
