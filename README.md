@@ -1,10 +1,16 @@
-# Fraugster.js
+<h1>Fraugster.js</h1>
+<p>An example of a well styled header of your README.md</p>
+<p>
+	<a href="https://github.com/fraugster/fraugster.js/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2-blue.svg"></a>
+</p>
+
+---
 
 Fraugster.js is a browser-side JavaScript library. This library can be used to
 collect browser fingerprinting information that can be later submitted to
 the Fraugster API.
 
-## Including Fraugster.js
+## Getting Started
 
 The script should be included in the page of your site where you want to collect
 the browser information. Once it is loaded it will define a global `Fraugster`
@@ -17,7 +23,7 @@ object that namespace its functionality.
 The script should be loaded directly from the indicated URL instead of being
 bundled with the application.
 
-## Collecting Browser Information
+### Collecting Browser Information
 
 Use `Fraugster.browserInfo()` to collect a `BrowserInfo` object that can be
 submitted to the Fraugster API.
@@ -44,3 +50,24 @@ var info = Fraugster.browserInfo();
 | `screen_height`   | Height of the screen                     |
 | `screen_depth`    | Color depth of the screen                |
 | `logical_cores`   | Number of logical cores of the device    |
+
+
+## Contributing
+
+If you want to contribute to this repository, please read the short [CONTRIBUTING.md](CONTRIBUTING.md)
+guide first.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available,
+see the [tags on this repository][tags.
+
+## Authors
+
+- **Stefan Warman** - *Migrate code to github* - [warmans](https://github.com/warmans)
+
+See also the list of [contributors](contributors) who participated in this project.
+
+## License
+
+This project is licensed under the Apache-2 License - see the [LICENSE](LICENSE) file for details.
