@@ -1,5 +1,4 @@
 <h1>Fraugster.js</h1>
-<p>An example of a well styled header of your README.md</p>
 <p>
 	<a href="https://github.com/fraugster/fraugster.js/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2-blue.svg"></a>
 </p>
@@ -14,7 +13,7 @@ the Fraugster API.
 
 The script should be included in the page of your site where you want to collect
 the browser information. Once it is loaded it will define a global `Fraugster`
-object that namespace its functionality.
+object that namespaces its functionality.
 
 ```html
 <script src="https://js.fraugster.com/v1/fraugster.js" integrity="sha384-O7lnJ9bjAd27tldfPpHwEGn4o3dnqPNUiLOpna4EoC+24Eah6OhoMvNVY8Q2ubkf" crossorigin="anonymous"></script>
@@ -60,7 +59,7 @@ guide first.
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available,
-see the [tags on this repository][tags.
+see the [tags on this repository][tags].
 
 ## Authors
 
@@ -71,3 +70,5 @@ See also the list of [contributors](contributors) who participated in this proje
 ## License
 
 This project is licensed under the Apache-2 License - see the [LICENSE](LICENSE) file for details.
+
+[tags]: https://github.com/fraugster/fraugster.js/tags
