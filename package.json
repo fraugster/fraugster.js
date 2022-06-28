@@ -10,15 +10,14 @@
     "url": "git@gitlab.n0q.eu:ui/fraugster.js.git"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.18.0",
-    "@typescript-eslint/parser": "^2.18.0",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "google-closure-compiler": "^20200112.0.0",
-    "prettier": "1.19.1",
-    "typescript": "^3.7.5"
+    "eslint-plugin-prettier": "^4.1.0",
+    "google-closure-compiler": "^20220601.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   }
 }
