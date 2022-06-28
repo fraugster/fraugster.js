@@ -76,9 +76,6 @@ namespace Fraugster {
     if (navigator.doNotTrack !== undefined) {
       return navigator.doNotTrack === 'yes';
     }
-    if (window.doNotTrack !== undefined) {
-      return window.doNotTrack === 'yes';
-    }
     return undefined;
   }
 
